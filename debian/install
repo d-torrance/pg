@@ -1,0 +1,4 @@
+doc usr/share/webwork-pg
+lib usr/share/webwork-pg
+macros usr/share/webwork-pg
+t usr/share/webwork-pg

@@ -1,0 +1,19 @@
+Source: webwork-pg
+Section: math
+Priority: optional
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Doug Torrance <dtorrance@piedmont.edu>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://webwork.maa.org
+Vcs-Git: https://anonscm.debian.org/git/debian-science/packages/webwork-pg.git
+Vcs-Browser: http://anonscm.debian.org/cgit/debian-science/packages/webwork-pg.git
+
+Package: webwork-pg
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: Problem rendering engine for WeBWorK
+ The PG language is a collection of macros (subroutines) written in perl which
+ facilitate writing mathematics questions. It began in 1995 and is continuously
+ under development as mathematicians stretch the existing boundaries of existing
+ online homework questions. PG currently has three dialects.

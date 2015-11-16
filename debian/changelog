@@ -1,0 +1,5 @@
+webwork-pg (2.10-1) unstable; urgency=low
+
+  * Initial release (Closes: #804946).
+
+ -- Doug Torrance <dtorrance@piedmont.edu>  Sat, 31 Oct 2015 11:12:38 -0400

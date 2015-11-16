@@ -1,0 +1,3 @@
+version=3
+https://github.com/openwebwork/pg/releases \
+/openwebwork/pg/archive/PG-(.+)\.tar\.gz
