@@ -1,7 +1,14 @@
 #!/usr/bin/make -f
 
+BUILDDIR=$(CURDIR)/debian/webwork-pg
+
 %:
 	dh $@
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod +x $(BUILDDIR)/usr/share/webwork-pg/macros/CanvasObject.pl
+	chmod +x $(BUILDDIR)/usr/share/webwork-pg/macros/compoundProblem2.pl
 
 get-orig-source:
 	uscan --verbose --rename --force-download
