@@ -1,0 +1,20 @@
+Description: Fix wrong-path-for-interpreter Lintian error.
+Author: Doug Torrance <dtorrance@piedmont.edu>
+Last-Update: 2015-11-17
+
+--- a/lib/Polynomial.pm
++++ b/lib/Polynomial.pm
+@@ -1,4 +1,4 @@
+-#! /usr/local/bin/perl
++#! /usr/bin/perl
+ 
+ package Polynomial;
+ 
+--- a/lib/PowerPolynomial.pm
++++ b/lib/PowerPolynomial.pm
+@@ -1,4 +1,4 @@
+-#! /usr/local/bin/perl
++#! /usr/bin/perl
+ 
+ package PowerPolynomial;
+ 
