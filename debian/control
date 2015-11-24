@@ -11,7 +11,12 @@ Vcs-Browser: http://anonscm.debian.org/cgit/debian-science/packages/webwork-pg.g
 
 Package: webwork-pg
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}
+Depends: libhtml-parser-perl,
+         libtie-ixhash-perl,
+         liburi-perl,
+         libuuid-tiny-perl,
+         ${misc:Depends},
+         ${perl:Depends}
 Description: Problem rendering engine for WeBWorK
  The PG language is a collection of macros (subroutines) written in perl which
  facilitate writing mathematics questions. It began in 1995 and is continuously
